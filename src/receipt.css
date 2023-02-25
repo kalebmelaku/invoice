@@ -1,0 +1,77 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.receipt {
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+.company-name {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.company-address {
+	font-size: 16px;
+	margin: 0;
+}
+
+.company-phone {
+	font-size: 16px;
+	margin: 0;
+}
+
+.customer-name,
+.customer-email,
+.receipt-number,
+.transaction-date {
+	margin: 0;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th {
+	background-color: #84c529;
+	padding: 10px;
+	text-align: left;
+    color: #fff;
+}
+
+td {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+.invoice-box .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total-amount {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: right;
+	margin: 20px 0 0 0;
+}
+@media print {
+    .print {
+      display: none;
+    }
+  
+    .invoice-box {
+      max-width: unset;
+      box-shadow: none;
+      border: 0px;
+    }
+  }
