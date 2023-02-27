@@ -7,9 +7,9 @@ import List from './components/list';
 
 function App() {
   return (
-    //<Invoice /> //Invoice Component
+    <Invoice /> //Invoice Component
     // <Receipt />  //Receipt Component
-    <List/>
+    //<List/> //Payment List
   );
   
 }
