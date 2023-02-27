@@ -18,6 +18,7 @@ class Receipt extends React.Component {
                     <p className="transaction-date">Transaction Date: 02/25/2023</p>
                     <hr />
                     <table>
+                        <tbody>
                         <tr>
                             <th>Item</th>
                             <th>Description</th>
@@ -37,7 +38,8 @@ class Receipt extends React.Component {
                             <td>3</td>
                             <td>Product C</td>
                             <td>$20.00</td>
-                        </tr>
+                            </tr>
+                            </tbody>
                     </table>
                     <hr />
                     <p className="total-amount">Total Amount: $45.00</p>

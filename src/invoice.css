@@ -48,8 +48,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 !important;
+  
 }
 
+
+.invoice-box table tr.information table td {
+  padding-bottom: 40px;
+}
 .invoice-box table tr.information table td {
   padding-bottom: 40px;
 }
@@ -78,6 +84,9 @@
   font-weight: bold;
 }
 
+.invoice-box table tr table td{
+  border: none !important;
+}
 @media only screen and (max-width: 600px) {
   .invoice-box table tr.top table td {
     width: 100%;
@@ -89,6 +98,9 @@
     width: 100%;
     display: block;
     text-align: center;
+  }
+  .invoice-box table tr.top table td.title h1{
+    font-size: 1.8rem;
   }
 }
 

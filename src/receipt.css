@@ -46,32 +46,42 @@ th {
 	background-color: #84c529;
 	padding: 10px;
 	text-align: left;
-    color: #fff;
+	color: #fff;
 }
 
 td {
 	padding: 10px;
 	border: 1px solid #ccc;
+	text-align: center !important;
 }
-.invoice-box .title{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+.invoice-box .title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
+
 .total-amount {
 	font-size: 24px;
 	font-weight: bold;
 	text-align: right;
 	margin: 20px 0 0 0;
 }
+
 @media print {
-    .print {
-      display: none;
-    }
-  
-    .invoice-box {
-      max-width: unset;
-      box-shadow: none;
-      border: 0px;
-    }
-  }
+	.print {
+		display: none;
+	}
+
+	.invoice-box {
+		max-width: unset;
+		box-shadow: none;
+		border: 0px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.invoice-box .title h1 {
+		font-size: 1.5rem;
+	}
+}

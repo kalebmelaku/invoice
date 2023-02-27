@@ -4,9 +4,11 @@ class Invoice extends React.Component {
         return (
             <div className="invoice-box">
                 <table cellPadding={0} cellSpacing={0}>
+                    <tbody>
                     <tr className="top">
                         <td colSpan={2}>
                             <table>
+                                <tbody>
                                 <tr>
                                     <td className="title">
                                         <h1>Company Name</h1>
@@ -21,6 +23,7 @@ class Invoice extends React.Component {
                                         Due: February 1, 2015
                                     </td>
                                 </tr>
+                                </tbody>
                             </table>
 
                         </td>
@@ -28,6 +31,7 @@ class Invoice extends React.Component {
                     <tr className="information">
                         <td colSpan={2}>
                             <table>
+                                <tbody>
                                 <tr>
                                     <td>
                                         Sparksuite, Inc.<br />
@@ -41,6 +45,7 @@ class Invoice extends React.Component {
                                         john@example.com
                                     </td>
                                 </tr>
+                                </tbody>
                             </table>
                         </td>
                     </tr>
@@ -85,6 +90,7 @@ class Invoice extends React.Component {
 
                         <td>Total: $385.00</td>
                     </tr>
+                    </tbody>
                 </table>
             </div>
         );
