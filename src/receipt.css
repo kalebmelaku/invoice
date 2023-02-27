@@ -47,6 +47,7 @@ th {
 	padding: 10px;
 	text-align: left;
 	color: #fff;
+	text-align: center;
 }
 
 td {
@@ -77,6 +78,9 @@ td {
 		max-width: unset;
 		box-shadow: none;
 		border: 0px;
+	}
+	th{
+		border: 2px solid #eee;
 	}
 }
 
